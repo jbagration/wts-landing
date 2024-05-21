@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'Nunito-ExtraLight';
+  src: url('assets/fonts/static/Nunito-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('assets/fonts/static/Nunito-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('assets/fonts/static/Nunito-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Nunito-Medium';
+  src: url('assets/fonts/static/Nunito-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Nunito-SemiBold';
+  src: url('assets/fonts/static/Nunito-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('assets/fonts/static/Nunito-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Nunito-ExtraBold';
+  src: url('assets/fonts/static/Nunito-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Nunito-Black';
+  src: url('assets/fonts/static/Nunito-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+body {
+  margin: 0;
+  font-family: 'Nunito-Regular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, html {
+  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+.App {
+  overflow-x: hidden;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+html {
+  zoom: 0.8;
+}
+@media (max-height: 800px) and (min-width:1000px) {
+  html {
+    zoom: 0.6;
+  }
+}
+@media (max-width: 425px) {
+  .our-work-section .first-slide-content .info-container {
+    zoom: 1.3;
+  }
+}

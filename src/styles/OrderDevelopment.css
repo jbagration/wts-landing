@@ -1,0 +1,596 @@
+.order-background {
+  background: #0F112F;
+  height: 900px;
+    margin-top: 100px;
+    background-image: url(../assets/Group\ 12.png);
+    background-size: cover;
+}
+.order-development-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .order-section-title { 
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+  }
+  .order-section-title h2 {
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+    margin-top: 50px;
+font-size: 48px;
+font-weight: 500;
+line-height: 67px;
+letter-spacing: 0em;
+  }
+  .order-content {
+    display: flex;
+    justify-content: center; 
+    position: relative;
+  }
+  .left-text {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+  }
+  .left-text-1 {
+margin-bottom: 50px;
+  }
+  .order-content .icons-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .order-arrow-icon {
+margin-top: 50px;
+margin-left: 350px;
+  }
+  .form-container {
+    background: #FFFFFF;
+    width: 580px;
+    padding: 40px 60px 40px 60px;
+    border-radius: 26px;
+    gap: 10px;
+    box-shadow: 
+    0px 1px 3px 0px #9099E133,
+    0px 6px 6px 0px #9099E12B,
+    0px 13px 8px 0px #9099E11A,
+    0px 22px 9px 0px #9099E108,
+    0px 35px 10px 0px #9099E100;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    border-radius: 51.31px;
+    justify-content: flex-start;
+  }
+  .form h3 {
+font-size: 34px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+color: #0A0C13;
+width: 580px;
+height: 96px;
+margin: 0;
+margin-bottom: 20px;
+  }
+  .form span {
+    color: #5967D1;
+  }
+  .input-field {
+    width: 540px;
+    height: 26px;
+    padding: 20px;
+    border-radius: 100px;
+    border: 1px;
+    gap: 10px;
+    color: #000;
+    border: 1px solid #9C95AE; 
+outline: none;
+text-align: left;
+margin-bottom: 10px;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+  }
+  .form-container-tariff {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 20px
+  }
+  .form-container-tariff-name {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #0A0C13;
+    margin: 0
+  }
+  .form-container-tariff-price {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #5967D1;
+    margin: 0
+  }
+  .input-error {
+    color: #000;
+    border: 1px solid #65071D;
+  }
+  .input-group-error .input-label, .input-group-error .input-label span{
+    color: #65071D;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    float: right;
+  }
+
+  .input-group-error-phone .input-label{
+    color: #65071D;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    float: right;
+    margin-top: -30px;
+  }
+  .input-field::placeholder {
+    color: #9C95AE;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .input-label {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #595962;
+    text-align: left;
+  }
+  .input-label span {
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+color: #5967D1;
+  }
+  .input-group {
+    margin-top: 5px;
+  }
+  .checkbox-container {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #595962;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .checkbox-input {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-input:checked {
+      background-color: #5967D1 !important;
+    }
+    .checkbox-label {
+      cursor: pointer;
+    }
+  .submit-button {
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    width: 444px;
+height: 73px;
+border-radius: 100px;
+background: #5967D1;
+box-shadow: 
+0px 1px 3px 0px #9099E133,
+0px 6px 6px 0px #9099E12B,
+0px 13px 8px 0px #9099E11A,
+0px 22px 9px 0px #9099E108,
+0px 35px 10px 0px #9099E100;
+font-size: 28px;
+font-weight: 500;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+text-transform: uppercase;
+  }
+  .button-container {
+    text-align: center;
+  }
+  .right-block-form {
+    position: relative;
+  }
+  .order-left-block {
+    position: absolute;
+    left: 162px;
+  }
+  @media (max-width: 1728px) {
+    .order-left-block {
+      position: absolute;
+      left: 60px;
+    }
+    }
+    @media (max-width: 1728px) {
+      .order-section-title { 
+  margin: 0 -100px;
+          }
+      }
+      @media (max-width: 1600px) {
+        .left-text {
+          font-size: 28px;
+        }
+        }
+        @media (max-width: 1600px) {
+          .left-text {
+            font-size: 24px;
+          }
+          }
+    @media (max-width: 1440px) {
+      .order-left-block {
+        position: absolute;
+      }
+    .left-text {
+      font-size: 24px;
+    }
+    .order-section-title { 
+      margin: 0 -150px;
+              }
+      }
+      @media (max-width: 1280px) {
+        .order-section-title-h2 {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+        }
+        .order-section-title h2 {
+font-size: 38px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+margin: 50px auto;
+        }
+          .order-content {
+            flex-direction: column-reverse;
+            align-items: center;
+          }
+          .order-section-title img {
+            width: 200px;
+          }
+          .order-content .right-block {
+justify-content: center;
+align-items: center;
+          }
+          .order-left-block {
+margin-right: auto;
+position: relative;
+bottom: -40px;
+          }
+          .order-background {
+            height: 1100px;
+          }
+          .order-left-block .left-text {
+            line-height: 36px;
+          }
+    .order-section-title { 
+      margin: 0 0px;
+              }
+      }
+      @media (max-width: 1024px) {
+        .order-left-block {
+          left: 24px;
+        }
+      }
+      @media (max-width: 950px) {
+        .order-section-title { 
+          margin: 0 -50px;
+                  }
+      }
+      @media (max-width: 800px) {
+        .order-section-title { 
+          margin: 0 -100px;
+                  }
+                  .form-container-tariff-name {
+                    font-size: 26px;
+                    line-height: 35px;
+                  }
+                  .form-container-tariff-price {
+                    font-size: 24px;
+                    line-height: 34px;
+                  }
+      }
+          @media (max-width: 650px) {
+            .order-left-block {
+              left: 16px;
+            }
+            .order-section-title { 
+              margin: 0px;
+                      }
+            .order-background {
+              margin-top: 50px;
+              height: 750px;
+            }
+            .order-section-title img {
+              width: 100px;
+            }
+            .order-section-title-h2 {
+              display: flex;
+              flex-direction: row;
+              gap: 10px;
+            }
+            .order-section-title h2 {
+font-size: 38px;
+font-weight: 600;
+line-height: 53px;
+text-align: center;
+margin: 0;
+            }
+            .order-content {
+              margin-top: 30px;
+            }
+            .order-section-title {
+              margin-top: 50px;
+            }
+            .order-left-block .left-text {
+font-size: 16px;
+line-height: 22px;
+            }
+            .order-content .icons-container {
+              gap: 10px;
+              margin: 0;
+            }
+            .order-content .icons-container img {
+              width: 40px;
+            }
+            .order-content .right-block {
+              width: 352px;
+              height: 378px;
+              margin-top: 30px;
+            }
+            .form-container {
+              width: 320px;
+              padding: 24px 16px 24px 16px;
+              border-radius: 20px;
+              gap: 10px;
+            }
+            .form {
+              width: 320px;
+            }
+            .form h3 {
+font-size: 20px;
+line-height: 28px;
+width: 320px;
+height: 56px;
+margin-bottom: 10px;
+            }
+            .input-label {
+font-size: 14px;
+line-height: 20px;
+            }
+            .input-field {
+              width: 288px;
+height: 22px;
+padding: 10px 16px 10px 16px;
+border-radius: 100px;
+gap: 10px;
+border: 1px solid #9C95AE;
+            }
+            .input-field::placeholder {
+font-size: 16px;
+line-height: 22px;
+            }
+            .input-group {
+              width: 320px;
+            }
+            .checkbox-container {
+              width: 250px;
+              margin-top: 5px;
+              margin-bottom: 25px;
+            }
+            .checkbox-label {
+              width: 215px;
+font-size: 12px;
+line-height: 17px;
+text-align: left;
+            }
+            .checkbox-input {
+              width: 20px;
+              height: 20px;
+              margin-top: -5px;
+            }
+            .submit-button {
+              width: 252px;
+height: 42px;
+padding: 10px;
+border-radius: 100px;
+gap: 10px;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+            }
+            .left-text-1 {
+              margin-bottom: 20px;
+            }
+            .input-group-error .input-label, .input-group-error .input-label span {
+font-size: 14px;
+line-height: 20px;
+            }
+            .input-field, .input-field::placeholder, .react-tel-input .form-control {
+font-size: 16px;
+line-height: 22px;
+            }
+            .input-label span {
+font-size: 14px;
+line-height: 20px;
+            }
+            .order-section-title-h2, .order-section-title h2 {
+              flex-direction: column;
+              font-size: 26px;
+              line-height: 34px;
+            }
+          }
+          @media (max-width: 425px) {
+            .form-container-tariff-name {
+              font-size: 14px;
+              line-height: 19px;
+            }
+            .form-container-tariff-price {
+              font-size: 12px;
+              line-height: 16px;
+            }        
+            .form-container-tariff {
+              margin-bottom: 5px;
+            }        
+          }
+          @media (max-width: 375px) {
+            .order-background {
+              margin-top: 50px;
+              height: 750px;
+            }
+            .order-section-title img {
+              width: 100px;
+              margin: 0 -50px;
+            }
+            .order-section-title-h2 {
+              display: flex;
+              flex-direction: column;
+              gap: 0px;
+            }
+            .order-section-title h2 {
+font-size: 26px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+margin: 0;
+            }
+            .order-content {
+              margin-top: 30px;
+            }
+            .order-section-title {
+              margin-top: 50px;
+            }
+            .order-left-block .left-text {
+font-size: 16px;
+line-height: 22px;
+            }
+            .order-content .icons-container {
+              gap: 10px;
+              margin: 0;
+            }
+            .order-content .icons-container img {
+              width: 40px;
+            }
+            .order-content .right-block {
+              width: 280px;
+              height: 378px;
+              margin-top: 30px;
+            }
+            .form-container {
+              width: 280px;
+              padding: 24px 16px 24px 16px;
+              border-radius: 20px;
+              gap: 10px;
+            }
+            .form {
+              width: 280px;
+            }
+            .form h3 {
+font-size: 16px;
+line-height: 28px;
+width: 280px;
+height: 56px;
+margin-bottom: 10px;
+            }
+            .input-label {
+font-size: 14px;
+line-height: 20px;
+            }
+            .input-field {
+              width: 240px;
+height: 22px;
+padding: 10px 16px 10px 16px;
+border-radius: 100px;
+gap: 10px;
+border: 1px solid #9C95AE;
+            }
+            .input-field::placeholder {
+font-size: 16px;
+line-height: 22px;
+            }
+            .input-group {
+              width: 240px;
+            }
+            .react-tel-input .form-control {
+              width: 240px;
+            }
+            .checkbox-container {
+              width: 250px;
+              margin-top: 5px;
+              margin-bottom: 25px;
+            }
+            .checkbox-label {
+              width: 215px;
+font-size: 12px;
+line-height: 17px;
+text-align: left;
+            }
+            .checkbox-input {
+              width: 20px;
+              height: 20px;
+              margin-top: -5px;
+            }
+            .submit-button {
+              width: 252px;
+height: 42px;
+padding: 10px;
+border-radius: 100px;
+gap: 10px;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+            }
+            .left-text-1 {
+              margin-bottom: 20px;
+            }
+            .input-group-error .input-label, .input-group-error .input-label span {
+font-size: 14px;
+line-height: 20px;
+            }
+            .input-field, .input-field::placeholder {
+font-size: 16px;
+line-height: 22px;
+            }
+            .input-label span {
+font-size: 14px;
+line-height: 20px;
+            }
+          }
